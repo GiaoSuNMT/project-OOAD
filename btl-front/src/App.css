@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.anh {
+  border: 1px solid grey;
+  border-radius: 5px;
+  border-style: groove;
+  width: 60px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.bg-color {
+  background-color: #E9EBEE;
+}
+.itembg-color {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.itembg-color2 {
+  border-radius: 10px;
+  background-color: rgb(225, 243, 248);
+}
+.pd-10 {
+  padding: 15px 15px 5px 15px;
+}
+.pd-15 {
+  padding: 15px 15px 20px 15px;
+}
+.pr-5 {
+  padding-right: 5px;
+}
+.sort-selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
+.footer {
+  border-radius: 3px;
+  background-color:#222222;
+  color: white;
+  text-align: center;
+}
+.session-title {
+  color: rgb(25, 0, 255);
+}
+.session-title:hover {
+  text-decoration: none;
+}
+.session-title-p {
+  color: red;
+}
+.session-title-p:hover {
+  text-decoration: none;
+}
+.session-master {
+  color: #808080;
+}
+.session-master:hover {
+  text-decoration: none;
+  color: black;
+}
+.session-number {
+  color: #365899;
+}
+.search {
+  width: 30%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.search:focus {
+  width: 100%;
+}
+.more:hover {
+  cursor: pointer;
+  color:  blue;
+}
+.text-right {
+  float: right;
+  cursor: pointer;
+}
+.text-right:hover {
+  color: red;
+}
+.sort-selected::after {
+  content: '\f00c';
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
+.role-hover {
+  cursor: pointer;
+}
